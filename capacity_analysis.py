@@ -7,11 +7,6 @@ team_capacity = {
     "Riley": 3
 }
 
-print("Team Capacity:")
-print(team_capacity)
-
-print("Alex's active projects:")
-print(team_capacity["Alex"])
-
-print("Number of team members:")
-print(len(team_capacity))
+print ("Team Capacity Report")
+for team_member, active_projects in team_capacity.items():
+    print(team_member, "has", active_projects, "active projects.")
