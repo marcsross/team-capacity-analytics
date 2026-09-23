@@ -1,12 +1,17 @@
-team_members = ["Alex", "Jordan", "Taylor", "Morgan"]
+team_capacity = {
+    "Alex": 7,
+    "Jordan": 6,
+    "Taylor": 9,
+    "Morgan": 5,
+    "Casey": 7,
+    "Riley": 3
+}
 
-active_projects = [7, 4, 9, 5]
+print("Team Capacity:")
+print(team_capacity)
 
-print("Team members:")
-print(team_members)
+print("Alex's active projects:")
+print(team_capacity["Alex"])
 
-print("Active projects:")
-print(active_projects)
-
-print("Number of team members")
-print(len(team_members))
+print("Number of team members:")
+print(len(team_capacity))
